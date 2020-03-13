@@ -1,0 +1,5 @@
+Note: Test the app by running website, using the file path in the "command prompt" window.
+      then add "node ChatApp.js" press 'Enter' and you should see the listening message.
+
+
+Then you can access the url("http://localhost:9000") for run the Chatting app. 

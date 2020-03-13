@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chatting App</title>
+   <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+   <script src="scripts\jquery-3.4.1.js"></script>
+   <script src="scripts\socket.io.js"></script>
+   <script src="scripts\default.js"></script>
+
+</head>
+<body>
+
+<div id="container">
+    <aside>
+        <header>
+            <input type="text" id="searchUser" placeholder="Search">
+        </header>
+		<h1><u>Active Person<u/></h1>
+        <ul id="activePerson">
+            
+        </ul>
+    </aside>
+    <main>
+        <header>            
+            <div><strong>Conversation</strong></div>
+            
+        </header>
+        <ul id="Conversation">
+            
+            
+            
+           
+            
+        </ul>
+        <footer>
+            <textarea placeholder="Type your message" id='Massage'></textarea>
+            <input type="file" id="sendFile"/>
+			<input type="button" id="sendMessage" value="send" />
+            
+        </footer>
+    </main>
+</div>
+
+</body>
+
+</html>
